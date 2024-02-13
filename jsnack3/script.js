@@ -20,7 +20,7 @@ document.querySelector("#result").innerHTML = `Cutted array is ${cuttedArr}`;
 
 function cutArray(arr, min, max) {
     let cutArr = [];
-    for (let i = min - 1; i < max; i++) {
+    for (let i = min; i <= max; i++) {
         cutArr.push(arr[i]);
     }
     return cutArr;
